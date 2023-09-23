@@ -1,5 +1,5 @@
 {
-  "name": "abort-controller",
+  "name": "@lixcode/abort-controller",
   "version": "3.0.0",
   "description": "An implementation of WHATWG AbortController interface.",
   "main": "dist/abort-controller",
@@ -12,7 +12,7 @@
     "node": ">=6.5"
   },
   "dependencies": {
-    "event-target-shim": "^5.0.0"
+    "event-target-shim-5": "npm:event-target-shim@^5.0.0"
   },
   "browser": "./browser.js",
   "devDependencies": {

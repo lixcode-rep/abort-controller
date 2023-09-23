@@ -23,6 +23,27 @@ controller.abort()
 
 > https://jsfiddle.net/1r2994qp/1/
 
+## lixcode fork
+
+This fork is fixing compatibility problems with different versions of `event-target-shim` dependency.
+This is useful for `react-native` 0.72 & 0.71 `event-target-shim@5` dependency when
+`react-native-webrtc` required version 6 (API is not compatible).
+
+Usage:
+```sh
+npm i abort-controller@npm:@lixcode/abort-controller
+```
+
+You can also add the next code to `package.json`:
+```json
+{
+  "override": {
+    "abort-controller": "npm:@lixcode/abort-controller"
+  }
+}
+```
+
+
 ## 💿 Installation
 
 Use [npm](https://www.npmjs.com/) to install then use a bundler.

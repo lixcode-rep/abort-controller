@@ -3,7 +3,7 @@ import {
     EventTarget,
     // Type,
     defineEventAttribute,
-} from "event-target-shim"
+} from "event-target-shim-5"
 
 // Known Limitation
 //   Use `any` because the type of `AbortSignal` in `lib.dom.d.ts` is wrong and
